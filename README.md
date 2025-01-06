@@ -3,11 +3,14 @@ Exploring Support Vector Machines (SVM) and Decision Trees for classification pr
 
 ## DecisionTree 
 In the classify_poisonous_mushroom jupyter notebook, I explored using a **Decision Tree Classifier** to determine feature importance in a dataset. 
+![Decision Tree Visualization](doc/decisiontree.png)
 
 **Evaluation**
-From the UCI Mushroom dataset, we saw the accuracy of Decision Tree classifier is 100% on both training and test data, which led to concerns of overfitting. 
+For the classification model, I evaluated performance using metrics such as precision, recall, F1 score, and accuracy while making sure we have equal class distribution. 
 
-![Decision Tree Visualization](doc/decisiontree.png)
+Using the UCI Mushroom dataset, the Decision Tree classifier achieved 100% accuracy on both the training and test data, which led to concerns of overfitting. 
+
+![Decision Tree Evaluation](doc/evaluation_decisiontree.png)
 
 To avoid overfitting and achieve generalization, we can consider below approaches: 
 
