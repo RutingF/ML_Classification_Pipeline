@@ -2,11 +2,25 @@
 Exploring the use of **Decision Tree**, **Support Vector Machines** (SVM) and **Logistic Regression** for solving classification problems. 
 
 ## Notebooks 
-1. classify_poisonous_mushroom
+1. predict_video_engagement
+
+The notebook demonstrates the **machine learning pipeline** to predict the probability of engagement with a list of educational videos. 
+
+The **EngagementPredictor** class includes different stages:
+- data preprocessing (scaling features)
+- model training (among a list of classifiers )
+- hyperparameters tuning (using Grid Search approach)
+- selecting the best model based on the ranking of an optimization metric (e.g., 'AUC')
+
+The implementation returns below result: 
+![Model Selection](doc/model_selection.png)
+
+
+2. classify_poisonous_mushroom
 - Demonstrates the usage of **Decision Tree** and **Support Vector Machines** (SVM).
 - Includes data preprocessing, model training, and evaluation.
 
-2. classify_fraud_transaction 
+3. classify_fraud_transaction 
 -  Demonstrates the usage of **Logistic Regression**. 
 -  Features advanced techniques like the **decision function** for probability thresholding setting.
 -  Leveraged **Grid Search** to optimize hyperparameters for better model performance. 
